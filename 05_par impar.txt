@@ -1,0 +1,2 @@
+#programa  que solicite un número y nos diga si es par o impar
+num1=int(input(introduce número"))

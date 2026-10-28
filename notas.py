@@ -1,10 +1,11 @@
 nota=int(input("Introduce una nota entre 0 y 10:"))
-if nota<5:
-    print("Suspenso")
-elif nota>5 and nota<6:
-    print("Aprobado")
-elif nota>7 and nota<8:
-    print("Notable")
-elif nota>9 and nota<10:
-    print("Sobresaliente")
+match nota:
+    case nota 0|1|2|3|4:
+        print("Suspenso")
+    case nota 5|6:
+        print("Suspenso")
+    case nota 7|8:
+        print("Suspenso")
+    case nota 9|10:
+        print("Suspenso")
 

@@ -1,1 +1,1 @@
->print("Bienvenido a Python")
+print("Bienvenido a Python")
